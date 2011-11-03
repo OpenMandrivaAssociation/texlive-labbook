@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/labbook
+# catalog-date 2008-03-30 20:37:26 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-labbook
 Version:	20080330
 Release:	1
@@ -52,6 +58,7 @@ be several index entries for one experiment.
 #- source
 %doc %{_texmfdistdir}/source/latex/labbook/labbook.dtx
 %doc %{_texmfdistdir}/source/latex/labbook/labbook.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -62,3 +69,5 @@ be several index entries for one experiment.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
