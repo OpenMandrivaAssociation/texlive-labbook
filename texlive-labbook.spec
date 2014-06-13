@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-labbook
 Version:	20080330
-Release:	6
+Release:	7
 Summary:	Typeset laboratory journals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/labbook
