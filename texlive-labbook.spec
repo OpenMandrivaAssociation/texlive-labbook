@@ -1,9 +1,3 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/labbook
-# catalog-date 2012-04-26 13:32:32 +0200
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-labbook
 Version:	20170414
 Release:	1
@@ -36,18 +30,10 @@ be several index entries for one experiment.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/labbook/labbook.cls
-%doc %{_texmfdistdir}/doc/latex/labbook/README
-%doc %{_texmfdistdir}/doc/latex/labbook/boilerplates.tex
-%doc %{_texmfdistdir}/doc/latex/labbook/examplde.tex
-%doc %{_texmfdistdir}/doc/latex/labbook/examplen.tex
-%doc %{_texmfdistdir}/doc/latex/labbook/labboode.pdf
-%doc %{_texmfdistdir}/doc/latex/labbook/labboode.tex
-%doc %{_texmfdistdir}/doc/latex/labbook/labbook.el
-%doc %{_texmfdistdir}/doc/latex/labbook/labbook.pdf
+%{_texmfdistdir}/tex/latex/labbook
+%doc %{_texmfdistdir}/doc/latex/labbook
 #- source
-%doc %{_texmfdistdir}/source/latex/labbook/labbook.dtx
-%doc %{_texmfdistdir}/source/latex/labbook/labbook.ins
+%doc %{_texmfdistdir}/source/latex/labbook
 
 #-----------------------------------------------------------------------
 %prep
