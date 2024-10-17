@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Typeset laboratory journals
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/labbook
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/labbook
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/labbook.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/labbook.doc.r%{version}.tar.xz
